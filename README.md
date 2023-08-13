@@ -18,5 +18,5 @@
 </p>
 <p>
   <h4>'NotificationBaseHandler' abstract class</h4>
-  For more abstraction, an abstract class called 'NotificationBaseHandler' has implemented, so we can have our own level of abstraction. This abstract class, has an abstract method called 'CanHandle' that verifies that the handler can be executed or not. Another abstract method is called 'RunHandler' with arguments exactly like Handle method. The INotificationHandler Handle method is implemented in this abstract class, inside that, first it calls 'CanHandle' method and if it returns 'true', it calls 'RunHandler'.
+  For more abstraction, an abstract class called 'NotificationBaseHandler' has implemented, so we can have our own level of abstraction. This abstract class, has an abstract method called 'CanHandle' that verifies that the handler can be executed or not. Another abstract method is called 'RunHandler' with arguments exactly like <i>Handle</i> method. The <i>INotificationHandler Handle</i> method is implemented in this abstract class, inside that, first it calls 'CanHandle' method and if it returns 'true', it calls 'RunHandler'.
 </p>
